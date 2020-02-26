@@ -1,0 +1,25 @@
+blockdiag {
+    A [label = "izopsfep1"];
+    B [label = "BBU1"];
+    C [label = "UC1"];
+    D [label = "HPA1"];
+    E [label = "Antenna Feeder"];
+    F [label = "Spacecraft"];
+    
+    I [label = "LNA2"];
+    J [label = "DC1"];
+    K [label = "DCR"];
+
+    B -> C;
+    C -> D;
+    D -> E;
+    E -> F [dir = "both"];
+    
+    A -> B [dir = "both"];
+    B -> J [dir = "back"];
+    B -> K [dir = "back"];
+    J -> I [dir = "back"];
+    K -> I [dir = "back"];
+    I -> E [dir = "back"];
+    
+}
