@@ -1,0 +1,13 @@
+blockdiag {
+  // Define class (list of attributes)
+  class emphasis [color = lightblue, style = dashed];
+  class redline [color = red, style = dashed];
+
+  izopsgs1 -> BBU1 -> UC1 -> HPA1 -> "Antenna Feeder";
+
+  // Set class to node
+  izopsgs1 [class = "emphasis"];
+
+  // Set class to edge
+  //Antenna Feeder -> Spacecraft [class = "redline"];
+}
