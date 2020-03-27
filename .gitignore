@@ -215,3 +215,8 @@ pip-log.txt
 .mr.developer.cfg
 
 .ipynb_checkpoints
+
+#VSCode
+.mypy*
+.vscode*
+*.code-workspace
