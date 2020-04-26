@@ -1,0 +1,30 @@
+\begin{thebibliography}{1}
+
+\bibitem{scipyint-latest}
+The~SciPy community.
+\newblock scipy.integrate, 2019--.
+\newblock URL: \url{https://docs.scipy.org/doc/scipy/reference/integrate.html}.
+
+\bibitem{ode-docs}
+The~SciPy community.
+\newblock scipy.integrate.ode, 2019--.
+\newblock URL:
+  \url{https://docs.scipy.org/doc/scipy/reference/generated/scipy.integrate.ode.html}.
+
+\bibitem{odeint-docs}
+The~SciPy community.
+\newblock scipy.integrate.odeint, 2019--.
+\newblock URL:
+  \url{https://docs.scipy.org/doc/scipy/reference/generated/scipy.integrate.odeint.html}.
+
+\bibitem{simple-sim}
+Evgenii Neumerzhitckii.
+\newblock Programming a simulation of the earth orbiting the sun, 2016--.
+\newblock URL: \url{https://evgenii.com/blog/earth-orbit-simulation/}.
+
+\bibitem{control-latest}
+python control.org.
+\newblock Python control systems library, 2019--.
+\newblock URL: \url{https://python-control.org}.
+
+\end{thebibliography}
