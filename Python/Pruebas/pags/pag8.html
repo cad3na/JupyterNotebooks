@@ -1,0 +1,1697 @@
+<html>
+ <!DOCTYPE html>
+ <head>
+  <noscript>
+   <meta content="0;URL=index.html" http-equiv="refresh"/>
+  </noscript>
+  <title>
+   [MEXSAT]  AHU 11
+  </title>
+  <style type="text/css">
+   @media print {
+  #toolBar { display:none }
+  #navBar0 { display:none }
+}
+.icon { margin-left:5px }
+.ibtn { background-color:transparent; z-index:1 }
+.menu { border:thin outset white 1px; color:black; padding-left:10px; padding-right:10px; position:absolute }
+.menu_item {  font-family:MS Sans Serif,Arial,Tahoma,sans-serif; font-size:8pt }
+.menu_icon { float:left; margin-left:2px; margin-right:2px }
+.toolbar { position:absolute; left:0px; top:0px; z-index:9 }
+.infobar { color:#c0e0f0; margin-right:5px }
+.popup_menu { filter:alpha(opacity=95); color:black; background:lightslategray; border:thin ridge lightslategray; z-index:9 }
+.popup_title { filter:alpha(opacity=100,finishopacity=25,style=3); background:white }
+.popup_button { filter:alpha(opacity=100,finishopacity=5,style=2); background:white }
+body { font-family: sans-serif; font-size: 10pt; font-weight: bold; font-style: normal; }
+.data { font-family: sans-serif; font-size: 9pt; font-weight: bold; font-style: normal; }
+.label { font-family: sans-serif; font-size: 9pt; font-weight: bold; font-style: normal; }
+.button { font-family: sans-serif; font-size: 9pt; font-weight: bold; font-style: normal; }
+.ibutton { font-family: sans-serif; font-size: 9pt; font-weight: bold; font-style: normal; }
+.menu { font-family: sans-serif; font-size: 10pt; font-weight: bold; font-style: normal; }
+.infobar { font-family: sans-serif; font-size: 8pt; font-weight: bold; font-style: normal; }
+.toolbar { font-family: sans-serif; font-size: 8pt; font-weight: bold; font-style: normal; }
+.combobox { font-family: sans-serif; font-size: 9pt; font-weight: bold; font-style: normal; }
+.popup_menu { font-family: sans-serif; font-size: 9pt; font-weight: bold; font-style: normal; }
+.query { font-family: sans-serif; font-size: 8pt; font-weight: normal; font-style: normal; }
+#box0 { z-index:0; }
+#box1 { z-index:0; }
+#box2 { z-index:0; }
+#box3 { z-index:0; }
+#box4 { z-index:0; }
+#box5 { z-index:0; }
+#box6 { z-index:0; }
+#box7 { z-index:0; }
+#box8 { z-index:0; }
+#box9 { z-index:0; }
+#box10 { z-index:0; }
+#box11 { z-index:0; }
+#box12 { z-index:0; }
+#box13 { z-index:0; }
+#box14 { z-index:0; }
+#box15 { z-index:0; }
+#image0 { z-index:0; }
+#label2 { font-family: sans-serif; font-size: 8pt; font-weight: bold; font-style: normal; }
+#label2 { z-index:0; }
+#label3 { z-index:0; }
+#label4 { font-family: sans-serif; font-size: 8pt; font-weight: bold; font-style: normal; }
+#label4 { z-index:0; }
+#label5 { font-family: sans-serif; font-size: 8pt; font-weight: bold; font-style: normal; }
+#label5 { z-index:0; }
+#label6 { font-family: sans-serif; font-size: 12pt; font-weight: bold; font-style: normal; }
+#label6 { z-index:0; }
+#label8 { font-family: sans-serif; font-size: 12pt; font-weight: bold; font-style: normal; }
+#label8 { z-index:0; }
+#label9 { font-family: sans-serif; font-size: 12pt; font-weight: bold; font-style: normal; }
+#label9 { z-index:0; }
+#label10 { font-family: sans-serif; font-size: 12pt; font-weight: bold; font-style: normal; }
+#label10 { z-index:0; }
+#label11 { font-family: sans-serif; font-size: 12pt; font-weight: bold; font-style: normal; }
+#label11 { z-index:0; }
+#label12 { font-family: sans-serif; font-size: 12pt; font-weight: bold; font-style: normal; }
+#label12 { z-index:0; }
+#label15 { font-family: sans-serif; font-size: 12pt; font-weight: bold; font-style: normal; }
+#label15 { z-index:0; }
+#label16 { font-family: sans-serif; font-size: 12pt; font-weight: bold; font-style: normal; }
+#label16 { z-index:0; }
+#label17 { font-family: sans-serif; font-size: 12pt; font-weight: bold; font-style: normal; }
+#label17 { z-index:0; }
+#label20 { font-family: sans-serif; font-size: 12pt; font-weight: bold; font-style: normal; }
+#label20 { z-index:0; }
+#label23 { font-family: sans-serif; font-size: 12pt; font-weight: bold; font-style: normal; }
+#label23 { z-index:0; }
+#label24 { font-family: sans-serif; font-size: 12pt; font-weight: bold; font-style: normal; }
+#label24 { z-index:0; }
+#label25 { font-family: sans-serif; font-size: 12pt; font-weight: bold; font-style: normal; }
+#label25 { z-index:0; }
+#data0 { font-family: sans-serif; font-size: 12pt; font-weight: bold; font-style: normal; }
+#data0 { z-index:0; }
+#data2 { z-index:0; }
+#data3 { font-family: sans-serif; font-size: 12pt; font-weight: bold; font-style: normal; }
+#data3 { z-index:0; }
+#data4 { font-family: sans-serif; font-size: 12pt; font-weight: bold; font-style: normal; }
+#data4 { z-index:0; }
+#data5 { font-family: sans-serif; font-size: 12pt; font-weight: bold; font-style: normal; }
+#data5 { z-index:0; }
+#data8 { z-index:0; }
+#data9 { z-index:0; }
+#data10 { z-index:0; }
+#data11 { z-index:0; }
+#data12 { font-family: sans-serif; font-size: 12pt; font-weight: bold; font-style: normal; }
+#data12 { z-index:0; }
+#data13 { z-index:0; }
+#data15 { z-index:0; }
+#data16 { z-index:0; }
+#data21 { z-index:0; }
+#data22 { z-index:0; }
+#data23 { z-index:0; }
+#data24 { z-index:0; }
+#data25 { z-index:0; }
+#data26 { z-index:0; }
+#data27 { z-index:0; }
+#data28 { z-index:0; }
+#data29 { z-index:0; }
+#data30 { z-index:0; }
+#data31 { z-index:0; }
+#data32 { z-index:0; }
+#data33 { z-index:0; }
+#data34 { z-index:0; }
+#data35 { z-index:0; }
+#data36 { z-index:0; }
+#data37 { font-family: sans-serif; font-size: 12pt; font-weight: bold; font-style: normal; }
+#data37 { z-index:0; }
+#data6 { z-index:0; }
+#data7 { font-family: sans-serif; font-size: 12pt; font-weight: bold; font-style: normal; }
+#data7 { z-index:0; }
+#data14 { font-family: sans-serif; font-size: 12pt; font-weight: bold; font-style: normal; }
+#data14 { z-index:0; }
+#data17 { font-family: sans-serif; font-size: 12pt; font-weight: bold; font-style: normal; }
+#data17 { z-index:0; }
+#data38 { font-family: sans-serif; font-size: 12pt; font-weight: bold; font-style: normal; }
+#data38 { z-index:0; }
+#data39 { font-family: sans-serif; font-size: 12pt; font-weight: bold; font-style: normal; }
+#data39 { z-index:0; }
+#box16 { z-index:7; }
+#box17 { z-index:7; }
+#box18 { z-index:7; }
+#box19 { z-index:7; }
+#label0 { font-family: Algerian; font-size: 24pt; font-weight: bold; font-style: italic; }
+#label0 { z-index:7; }
+#label1 { font-family: sans-serif; font-size: 12pt; font-weight: bold; font-style: normal; }
+#label1 { z-index:7; }
+#label7 { font-family: sans-serif; font-size: 12pt; font-weight: bold; font-style: normal; }
+#label7 { z-index:7; }
+#label13 { font-family: Algerian; font-size: 24pt; font-weight: bold; font-style: italic; }
+#label13 { z-index:7; }
+#label14 { font-family: sans-serif; font-size: 12pt; font-weight: bold; font-style: normal; }
+#label14 { z-index:7; }
+#label18 { font-family: sans-serif; font-size: 12pt; font-weight: bold; font-style: normal; }
+#label18 { z-index:7; }
+#label19 { font-family: sans-serif; font-size: 12pt; font-weight: bold; font-style: normal; }
+#label19 { z-index:7; }
+#label21 { font-family: sans-serif; font-size: 12pt; font-weight: bold; font-style: normal; }
+#label21 { z-index:7; }
+#label22 { font-family: sans-serif; font-size: 12pt; font-weight: bold; font-style: normal; }
+#label22 { z-index:7; }
+#data1 { font-family: sans-serif; font-size: 12pt; font-weight: bold; font-style: normal; }
+#data1 { z-index:7; }
+#data18 { font-family: sans-serif; font-size: 12pt; font-weight: bold; font-style: normal; }
+#data18 { z-index:7; }
+#data19 { font-family: sans-serif; font-size: 12pt; font-weight: bold; font-style: normal; }
+#data19 { z-index:7; }
+#data20 { font-family: sans-serif; font-size: 12pt; font-weight: bold; font-style: normal; }
+#data20 { z-index:7; }
+  </style>
+  <script>
+   var ie = typeof(document.all) != undefined;
+var mainframe = top.document.getElementById('mainframe');
+var xmlHttp = null;
+var sessionID = "7d845800";
+var userID = "mexsat";
+var viewID = "AHU11";
+var rootID = "AHU11";
+var ack_count = 0;
+var nak_count = 0;
+var critical_ack_count = 0;
+var critical_nak_count = 0;
+var editwin = null;
+var bLoadNotes = true;
+var bOnline = false;
+var bReady = false;
+var bQuit = true;
+var bPoll = true;
+var d1 = new Date();
+var tz = d1.getTimezoneOffset();
+var t1 = 0;
+var t2 = 0;
+
+//
+// WEBLINK GLOBAL FUNCTIONS - ONLY EDIT IF YOU ARE SURE YOU KNOW WHAT YOU ARE DOING !!!
+//
+function resize(w,h)
+{
+  var x = (document.all ? top.document.body.clientWidth : top.innerWidth);
+  var y = (document.all ? top.document.body.clientHeight : top.innerHeight);
+
+  if (w > x) x = w;
+  if (h > y) y = h;
+
+  mainframe.style.top = '0px';
+  mainframe.style.left = '0px';
+
+  mainframe.width = x;
+  mainframe.height = y;
+}
+
+function center(x,y)
+{
+  var xpos = x + (mainframe.width - _W) / 2;
+  var ypos = y + (mainframe.height - _H) / 2;
+
+  webview.style.left = xpos + 'px';
+  webview.style.top = ypos + 'px';
+}
+
+function LZ(x)
+{
+  return (x < 10 ? '0' + x : x);
+}
+
+function FormatDate(d)
+{
+  return LZ(d.getMonth() + 1) + '/' + LZ(d.getDate()) + '/' + d.getFullYear();
+}
+
+function FormatTime(d)
+{
+  return d.getHours() + ':' + LZ(d.getMinutes()) + ':' + LZ(d.getSeconds());
+}
+
+function ForceReload()
+{
+  Goto(rootID, true);
+}
+
+function ChangeTheme(id)
+{
+    SendXML("<theme>" + id + "</theme>");
+    ForceReload();
+}
+
+function PrintPreview()
+{
+    document.body.insertAdjacentHTML('beforeEnd', '<object id=tmpObj width=0 height=0 classid="CLSID:8856F961-340A-11D0-A96B-00C04FD705A2" style="display:none"></object>');
+    tmpObj.ExecWB(7, 1);
+    tmpObj.outerHTML = '';
+}
+
+function PositionPopup(popup)
+{
+    var x = window.event.clientX - 25;
+    var y = window.event.clientY - 25;
+
+    x = Math.max(5, x);
+    x = Math.min(x, document.body.clientWidth - popup.clientWidth - 5);
+    y = Math.max(5, y);
+    y = Math.min(y, document.body.clientHeight - popup.clientHeight - 5);
+
+    popup.style.left = x + 'px';
+    popup.style.top = y + 'px';
+}
+
+function _AnalogOutputOR(host, product, device, index, func, min, max)
+{
+    var value = parseFloat(AnalogOutputPopup_val.value);
+    var fmin = parseFloat(min);
+    var fmax = parseFloat(max);
+
+    if (value < 0) value = 0.0;
+    else if (value > 100) value = 100.0;
+    if (fmin > fmax) value = fmin - parseFloat((value * Math.abs(fmax - fmin)) / 100.0);
+    else value = fmin + parseFloat((value * Math.abs(fmax - fmin)) / 100.0);
+
+    switch (product)
+    {
+    case 7040: case 7540: case 8540: case 8040: case 9540: case 9536: case 9520: case 9500: case 6115:
+        WriteOPC(host, '', device + '.ANO.Action', index, func);
+        if (func == 1) WriteOPC(host, '', device + '.ANO.OutputValueVolts', index, value);
+        break;
+    default:
+        if (func == 1)
+        {
+            WriteOPC(host, '', device + '.TBL00.AOOverrideAction', index + 1, Math.round(value * 25.5));
+        }
+        else WriteOPC(host, '', device + '.TBL00.AOOverrideClear', index + 1, func);
+        break;
+    }
+    AnalogOutputPopup.style.display = "none";
+}
+
+function AnalogOutputOR(host, product, description, device, index, min, max)
+{
+    AnalogOutputPopup_title.innerText = description;
+
+    AnalogOutputPopup_set.onclick = function () { _AnalogOutputOR(host, product, device, index, 1, min, max); }
+    AnalogOutputPopup_clr.onclick = function () { _AnalogOutputOR(host, product, device, index, 3, min, max); }
+
+    BinaryOutputPopup.style.display = "none";
+    AnalogOutputPopup.style.display = "block";
+    PositionPopup(AnalogOutputPopup);
+}
+
+function _BinaryOutputOR(host, product, device, index, value)
+{
+    switch (product)
+    {
+    case 7040: case 7540: case 8540: case 8040: case 9540: case 9536: case 9520: case 9500: case 6115:
+        WriteOPC(host, '', device + '.OUT.Action', index, value);
+        break;
+    default:
+        WriteOPC(host, '', device + '.TBL00.OutputOverrideAction', index + 1, value);
+        break;
+    }
+    BinaryOutputPopup.style.display = "none";
+}
+
+function BinaryOutputOR(host, product, description, device, index)
+{
+    BinaryOutputPopup_title.innerText = description;
+
+    BinaryOutputPopup_on.onclick = function () { _BinaryOutputOR(host, product, device, index, 1); }
+    BinaryOutputPopup_off.onclick = function () { _BinaryOutputOR(host, product, device, index, 2); }
+    BinaryOutputPopup_clr.onclick = function () { _BinaryOutputOR(host, product, device, index, 3); }
+
+    AnalogOutputPopup.style.display = "none";
+    BinaryOutputPopup.style.display = "block";
+    PositionPopup(BinaryOutputPopup);
+}
+
+function SetHiLoRGB(id, value, hiSP, loSP, hiRGB, loRGB, okRGB)
+{
+    var tag = eval('tag' + id);
+
+    if (tag)
+    {
+        var rgb = okRGB;
+ 
+        if (value <= loSP) rgb = loRGB;
+        else if (value >= hiSP) rgb = hiRGB;
+ 
+        if (tag.style.color != rgb) tag.style.color = rgb;
+    }
+}
+
+function AnimateGFX(obj, gfxname, filename, count)
+{
+	return AnimatePNG(obj, gfxname + '.gfx?img=' + filename, count);
+}
+
+function AnimatePNG(obj, filename, count)
+{
+  var list = new Array();
+
+  for (var n = 0; n < count; n++)
+  {
+    list.push(filename + '_' + n + '.png');
+  }
+  return new Animate(obj, list.join(','));
+}
+
+function Animate(obj, srclist)
+{
+  this.object = obj;
+  this.index = 0;
+  this.delay = 50;
+  this.interval = 0;
+  this.reverse = false;
+  this.links = srclist.split(',');
+  this.slides = new Array();
+  this.count = 0;
+
+  for (var n in this.links)
+  {
+    var image = new Image();
+
+    image.src = 'images/' + this.links[n];
+    this.slides.push(image);
+    this.count++;
+  }
+
+  this.stop = function()
+  {
+    if (this.interval)
+    {
+      self.clearInterval(this.interval);
+      this.interval = 0;
+    }
+  }
+
+  this.start = function()
+  {
+    if (this.interval == 0)
+    {
+      var instance = this;
+
+      this.interval = self.setInterval(function() { instance.next(); }, this.delay);
+    }
+  }
+
+  this.next = function()
+  {
+    if (this.reverse)
+      this.index = (this.index + this.count - 1) % this.count;
+    else
+      this.index = (this.index + 1) % this.count;
+
+    this.object.src = this.slides[this.index].src;
+  }
+}
+var update_interval = 500;
+var http_timeout = 30000;
+var tag_count = 40;
+var label_count = 26;
+var button_count = 0;
+var ibutton_count = 0;
+var image_count = 1;
+var query_count = 0;
+var trend_count = 0;
+
+
+
+function OnAlarm(id,alarm,value,state)
+{
+
+}
+
+function OnUpdateData()
+{
+
+}
+
+function OnHide()
+{
+
+if (window.OnHideView) OnHideView();
+}
+
+function OnShow()
+{
+OnReady();
+if (window.OnShowView) OnShowView();
+if (window.OnInitEvents) OnInitEvents();
+
+    webview.style.display='block';state.src='images/private/page_ready.gif';bReady=true;notepad.style.color=menuRGB[1];notepad.style.background=menuRGB[2];if (authID < 4) notes.readOnly=true;AddEvents();
+    menuBar.create();menuBar.moveTo(0,47);
+}
+
+
+function OnImage0()
+{
+
+}
+
+function OnLabel2()
+{
+
+}
+
+function OnLabel3()
+{
+
+}
+
+function OnLabel4()
+{
+
+}
+
+function OnLabel5()
+{
+
+}
+
+function OnLabel6()
+{
+
+}
+
+function OnLabel8()
+{
+
+}
+
+function OnLabel9()
+{
+
+}
+
+function OnLabel10()
+{
+
+}
+
+function OnLabel11()
+{
+
+}
+
+function OnLabel12()
+{
+
+}
+
+function OnLabel15()
+{
+
+}
+
+function OnLabel16()
+{
+
+}
+
+function OnLabel17()
+{
+
+}
+
+function OnLabel20()
+{
+
+}
+
+function OnLabel23()
+{
+
+}
+
+function OnLabel24()
+{
+
+}
+
+function OnLabel25()
+{
+
+}
+
+function OnLabel0()
+{
+
+}
+
+function OnLabel1()
+{
+
+}
+
+function OnLabel7()
+{
+
+}
+
+function OnLabel13()
+{
+
+}
+
+function OnLabel14()
+{
+
+}
+
+function OnLabel18()
+{
+
+}
+
+function OnLabel19()
+{
+
+}
+
+function OnLabel21()
+{
+
+}
+
+function OnLabel22()
+{
+
+}
+var roller_0 = new Image();
+roller_0.src = 'images/icons/0/home.gif';
+var roller_1 = new Image();
+roller_1.src = 'images/icons/0/reports.gif';
+var roller_2 = new Image();
+roller_2.src = 'images/icons/0/trends.gif';
+var roller_3 = new Image();
+roller_3.src = 'images/icons/0/back.gif';
+var roller_4 = new Image();
+roller_4.src = 'images/icons/0/monitor.gif';
+var alarm_handler = function () { Goto('_alarms'); }
+var authID = 0;
+var noteTXT = 'notes/AHU11.txt';
+var menuRGB = new Array('#c0c0c0','#808080','#e0e0e0','#606060','#f8f8f8','#606060','#f8f8f8','#f8f8f8','#004080');
+
+function AddEvents() {
+}
+
+top.onbeforeunload = Unload;
+top.document.title = document.title;
+if (document.all || document.layers) document.write("<META http-equiv='imagetoolbar' content='no'>");
+
+function ShowTime()
+{
+    localdate.innerText = FormatDate(d1);
+    localtime.innerText = ' ' + FormatTime(d1);
+}
+
+function GetXmlHttp()
+{
+    var obj = null;
+
+    if (window.XMLHttpRequest)
+	{
+        obj = new XMLHttpRequest();
+    }
+	else if (window.ActiveXObject)
+	{
+	    try { obj = new ActiveXObject("Msxml2.XMLHTTP.6.0"); } catch (e) { }
+		if (!obj) try { obj = new ActiveXObject("Msxml2.XMLHTTP.4.0"); } catch (e) { }
+		if (!obj) try { obj = new ActiveXObject("Msxml2.XMLHTTP.3.0"); } catch (e) { }
+		if (!obj) try { obj = new ActiveXObject("Msxml2.XMLHTTP"); } catch (e) { }
+		if (!obj) try { obj = new ActiveXObject("Microsoft.XMLHTTP"); } catch(e) { top.location = 'help.html'; }
+    }
+    return obj;
+}
+
+function SetContent(id, verb, uri)
+{
+	var ajax = GetXmlHttp();
+
+	if (ajax)
+	{
+		xmlHttp.open(verb, uri, true);
+		xmlHttp.setRequestHeader("Cache-Control", "no-cache");
+		eval("xmlHttp.onreadystatechange = function() { if (this.readyState == 4 && this.status == 200) " + id + ".innerHTML = this.responseText; }");
+        xmlHttp.send();
+	}
+}
+
+function UpdateData()
+{
+    if (t1) { window.clearInterval(t1); t1 = 0; }
+
+    if (bPoll)
+    {
+        xmlHttp.open("POST", ".xml?get=!", true);
+		xmlHttp.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttp.onreadystatechange = GetXML;
+        xmlHttp.send(sessionID + "|" + userID);
+    }
+}
+
+function ResetXML()
+{
+    if (xmlHttp == null) xmlHttp = GetXmlHttp();
+	else xmlHttp.abort();
+    UpdateData();
+}
+
+function VerifyXML()
+{
+    var d2 = new Date();
+    var ms = d2.getTime() - d1.getTime();
+
+    if (xmlHttp.readyState == 2)
+    {
+        if (ms > 5000) ResetXML();
+    }
+    else if (xmlHttp.readyState == 3)
+    {
+        if (ms > http_timeout) ResetXML();
+    }
+	delete d2;
+}
+
+function GetXML()
+{
+    d1 = new Date();
+
+    if (xmlHttp.readyState == 4)
+    {
+        bWait = false;
+
+        if (t1) window.clearInterval(t1); t1 = window.setInterval("UpdateData()", update_interval);
+
+        if (xmlHttp.status == 200)
+        {
+		    try
+			{
+			    var root = xmlHttp.responseXML.getElementsByTagName("opc")[0];
+           
+				try
+				{
+					var js = root.getElementsByTagName("tag")[0].getElementsByTagName("js")[0];
+					
+					if (js) { eval(js.textContent == undefined ? js.text : js.textContent); OnUpdateData(); }
+				}
+				catch (e) { }
+			
+				try
+				{
+					var js = root.getElementsByTagName("user")[0].getElementsByTagName("js")[0];
+
+					if (js) eval(js.textContent == undefined ? js.text : js.textContent);
+				}
+				catch (e) {}
+			}
+			catch (e) {}
+        }
+        ShowTime();
+    }
+    else if (xmlHttp.readyState == 2)
+    {
+        if (t1) window.clearInterval(t1); t1 = window.setInterval("VerifyXML()", 250);
+    }
+}
+
+function Send(verb, url)
+{
+    var http = GetXmlHttp();
+ 
+    http.open(verb, escape(url), false);
+    http.send();
+}
+
+function SendXML(data)
+{
+    if (bPoll)
+	{
+    	var http = GetXmlHttp();
+
+        http.open("POST", ".xml?xml=", false);
+    	http.setRequestHeader("Content-Type", "text/xml");
+        http.send("<?xml version='1.0'?><user ssid='" + sessionID + "' tz='" + tz + "'>" + userID + "</user><data>" + data + "</data>");
+    	return (http.readyState == 4);
+	}
+}
+
+function Quit(exit)
+{
+	if (exit)
+	{
+	    top.opener = '?';
+	    top.open('','_parent','');
+		top.close();
+	}
+	else top.location = '/';
+}
+
+function Abort(exit)
+{
+	document.body.onbeforeunload = null;
+	top.onbeforeunload = null;
+	Quit(exit);
+}
+
+function Unload()
+{
+    bPoll = bOnline = bReady = false;
+	document.body.onbeforeunload = null;
+	top.onbeforeunload = null;
+    if (t1) window.clearInterval(t1); t1 = 0;
+    if (editwin != null) editwin.close();
+
+	OnHide();
+
+	if (bQuit) Send("GET", "?get=$<quit>|" + userID + "|" + sessionID);
+}
+
+function Goto(view, fixup)
+{
+    if (bOnline && (view != null))
+    {
+        if (fixup)
+        {
+            var pos = viewID.indexOf(';');
+
+            if (pos != -1) view += viewID.substring(pos, viewID.length);
+        }
+
+		if (view != "")
+		{
+ 		    var gotoURL = "?get=$" + view + "|" + userID + "|" + sessionID;
+
+            document.body.style.cursor = 'wait';
+		    bPoll = bQuit = bOnline = false;
+			location = gotoURL;
+		}
+    }
+}
+
+function Jump(view, host, port)
+{
+    if (bOnline) SendXML("<jump host='" + host + "' port='" + (port ? port : "80") + "'>" + view + "</jump>");
+}
+
+function WriteTag(tagID)
+{
+    var w = 480;
+    var h = 240;
+    var x = window.screenLeft + ((document.body.clientWidth - w) / 2);
+    var y = window.screenTop  + ((document.body.clientHeight - h) / 2);
+    var url = ".html?inp=" + tagID + "," + escape(viewID) + "|" + userID + "|" + sessionID;
+
+    if (editwin != null) editwin.close();
+    editwin = window.open(url, "editwin", "status=no,menubar=no,toolbar=no,resizable=no,scrollbars=auto,height="+h+",width="+w+",left="+x+",top="+y);
+}
+
+function WriteTagValue(tagID, value)
+{
+    Send("POST", "?set=" + tagID + "," + viewID + "=" + value + "|" + userID + "|" + sessionID);
+}
+
+function WriteOPC(hostID, classID, tagID, index, value)
+{
+    Send("POST", "?put=" + hostID + "," + classID + "!" + index + "," + viewID + "." + tagID + "=" + value + "|" + userID + "|" + sessionID);
+}
+
+function SetAlarms(critical_nak, critical_ack, nak, ack, image)
+{
+    if ((ack != ack_count) || (nak != nak_count))
+    {
+        if (viewID != "_alarms")
+        {
+            if (nak || ack)
+            {
+				var	text = new Array();
+				
+				if (critical_priority)
+				{
+					text.push('(' + (nak - critical_nak) + ') normal UNACK');
+					text.push('(' + (ack - critical_ack) + ') normal ACK');
+					text.push('(' + critical_nak + ') critical UNACK');
+					text.push('(' + critical_ack + ') critical ACK');
+				}
+				else
+				{
+					text.push('(' + nak + ') alarm UNACK');
+					text.push('(' + ack + ') alarm ACK');
+				}
+                state.onclick = alarm_handler;
+ 				state.title = text.join('\n');
+				state.src = image;
+            }
+            else
+            {
+               state.onclick = null;
+               state.src = image;
+               state.title = '';
+            }
+        }
+		ack_count = ack;
+        nak_count = nak;
+    }
+	critical_ack_count = critical_ack;
+	critical_nak_count = critical_nak;
+}
+
+function SetConsole(name, value)
+{
+    SendXML('<SetConsole name="' + name + '">' + value + '</SetConsole>');
+    console[name] = value;
+}
+
+function SetGlobal(name, value)
+{
+    SendXML('<SetGlobal name="' + name + '">' + value + '</SetGlobal>');
+    globals[name] = value;
+}
+
+function SaveReport(data, is_graph)
+{
+    var name = prompt('Save Historical Report As:', reportID);
+
+    if ((name != null) && (name != ""))
+    {
+        SendXML('<SaveReport graph="' + is_graph + '" name="' + name + '">' + data + '</SaveReport>');
+        return true;
+    }
+    return false;
+}
+
+function LoadNotes()
+{
+    if (bLoadNotes)
+	{
+		var http = GetXmlHttp();
+
+		http.open("GET", noteTXT + "?" + d1.getTime(), false);
+		http.send();
+
+		if (http.status == 200)
+		{
+			notes.value = unescape(http.responseText);
+			bLoadNotes = false;
+		}
+	}
+	notepad.style.display = 'block';
+	webview.style.display = 'none';
+}
+
+function SaveNotes()
+{
+	var http = GetXmlHttp();
+
+    http.open("POST", ".txt?txt=", false);
+    http.send(userID + "|" + sessionID + "=" + escape(notes.value));
+}
+
+function LoadQuery(index)
+{
+    if (bOnline)
+	{
+        var qframe = document.getElementById('query' + index);
+
+	    if (qframe != null) qframe.src = "?get==" + index + "|" + userID + "|" + sessionID;
+	}
+}
+
+function LoadSQL(index, sql, src, sync)
+{
+    var extra = ' id=' + index;
+
+    if (sql != undefined)
+    {
+        if (src != undefined) extra += ' src=\'' + src + '\'';
+        if (sync != undefined) extra += ' sync=' + sync;
+
+        SendXML('<ExecuteSQL' + extra + '>' + escape(sql) + '</ExecuteSQL>');
+    }
+    else
+    {
+        SendXML('<ExecuteSQL' + extra + '></ExecuteSQL>');
+    }
+}
+
+function ExecSQL(index, sql)
+{
+	var xml = "<ExecuteSQL id=" + index + " async=1>";
+    var cmd = sql.split(';');
+
+	for (var i = 0; i < cmd.length; i++)
+	{
+		if (cmd[i].length) xml += "<sql>" + escape(cmd[i]) + "</sql>";
+	}
+	xml += "</ExecuteSQL>";
+
+	SendXML(xml);
+}
+
+function SaveSQL(index, sql)
+{
+	SendXML('<ReplaceSQL sync=1 id=' + index + '>' + escape(sql) + '</ReplaceSQL>');
+}
+
+function Print(win)
+{
+    if (win)
+	{
+	    win.focus();
+	    win.print();
+	}
+	else
+	{
+	    var w,h,o;
+		
+		webview.style.left = '0px';
+		webview.style.top = '0px';
+
+		if (rootID == "_trends")
+		{
+			o = document.getElementById('graph0');
+			if (!o) o = document.getElementById('canvas');
+
+			h = o.style.height;
+			w = o.style.width;
+
+			o.style.height = '7.5in';
+			o.style.width = '10in';
+		}
+		window.print();
+
+		if (rootID == "_trends")
+		{
+			o.style.height = h;
+			o.style.width = w;
+		}
+		OnSnap();
+	}
+}
+  </script>
+ </head>
+ <body bgcolor="#e1e1e1" class="main" id="_body" onbeforeunload="Unload()" oncontextmenu="return false" ondragstart="return false" scroll="no" style="cursor:wait;margin:0;padding:0">
+  <table cellpadding="8" class="popup_menu" id="AnalogOutputPopup" style="position:absolute;display:none">
+   <tr onclick='AnalogOutputPopup.style.display="none"'>
+    <th class="popup_title" colspan="3" id="AnalogOutputPopup_title">
+    </th>
+   </tr>
+   <tr align="center" valign="center">
+    <td colspan="3">
+     Value (0 - 100%):
+     <input id="AnalogOutputPopup_val" maxlength="3" size="3" value="0"/>
+    </td>
+   </tr>
+   <tr align="center">
+    <td class="popup_button" id="AnalogOutputPopup_set" onmouseout='this.style.background="white"' onmouseover='this.style.background="yellow"'>
+     SET O/R
+    </td>
+    <td class="popup_button" id="AnalogOutputPopup_clr" onmouseout='this.style.background="white"' onmouseover='this.style.background="lime"'>
+     CLR O/R
+    </td>
+   </tr>
+  </table>
+  <table cellpadding="8" class="popup_menu" id="BinaryOutputPopup" onclick='this.style.display="none"' style="position:absolute;display:none">
+   <tr>
+    <th class="popup_title" colspan="3" id="BinaryOutputPopup_title">
+    </th>
+   </tr>
+   <tr align="center" valign="center">
+    <td class="popup_button" id="BinaryOutputPopup_on" onmouseout='this.style.background="white"' onmouseover='this.style.background="yellow"'>
+     O/R ON
+    </td>
+    <td class="popup_button" id="BinaryOutputPopup_off" onmouseout='this.style.background="white"' onmouseover='this.style.background="yellow"'>
+     O/R OFF
+    </td>
+    <td class="popup_button" id="BinaryOutputPopup_clr" onmouseout='this.style.background="white"' onmouseover='this.style.background="lime"'>
+     O/R CLR
+    </td>
+   </tr>
+  </table>
+  <style>
+   #schedulehome {background:#e0e0e0}.ssc {font-size:9pt;font-weight:bold;border-collapse:collapse;width:100%;color:#808080}.ssc th {border-bottom:1px solid #c0c0c0;text-align:left}.ssr {font-size:8pt;text-align:center}
+  </style>
+  <div id="schedulehome" style='overflow:auto;z-index:100;position:absolute;left:0px;top:65px;width:100%;height:expression(document.body.clientHeight-65+"px");display:none'>
+   <table border="0" cellpadding="2" cellspacing="0" class="ssc">
+    <tr>
+     <th>
+      ACTIVE SCHEDULES
+     </th>
+    </tr>
+   </table>
+  </div>
+  <table border="0" cellpadding="0" cellspacing="0" id="notepad" style='z-index:100;position:absolute;left:0px;top:65px;width:100%;height:expression(document.body.clientHeight-65+"px");display:none'>
+   <tr>
+    <th height="50" style="font-size:12pt">
+     Notes on 'AHU 11'
+    </th>
+   </tr>
+   <tr>
+    <th>
+     <textarea id="notes" onchange="if (!notes.readOnly) SaveNotes()" style="width:90%;height:100%;overflow:auto" type="text"></textarea>
+    </th>
+   </tr>
+   <tr>
+    <th height="50">
+     <input onclick='notepad.style.display="none";webview.style.display="block"' style="font-weight:bold;width:90px;height:30px" type="button" value="CLOSE"/>
+    </th>
+   </tr>
+  </table>
+  <table border="0" cellpadding="0" cellspacing="0" class="toolbar" id="toolBar" nothing="1088" rules="groups" style='background:url("images/skins/metal_brush.gif")' width="100%">
+   <tr align="center" height="47" valign="center">
+    <td width="838">
+     <table align="left" border="0" cellpadding="0" cellspacing="0" class="iconbar" valign="center">
+      <tr valign="center">
+       <td>
+        <img alt="Back" class="icon" id="icon0" onclick='Goto("{")' onmouseout='this.src="images/icons/1/back.gif"' onmouseover='this.src="images/icons/0/back.gif"' src="images/icons/1/back.gif"/>
+       </td>
+       <td>
+        <img alt="Forward" class="icon" id="icon1" src="images/icons/1/forward.gif"/>
+       </td>
+       <td>
+        <img alt="Home" class="icon" id="icon2" onclick='Goto("main")' onmouseout='this.src="images/icons/1/home.gif"' onmouseover='this.src="images/icons/0/home.gif"' src="images/icons/1/home.gif"/>
+       </td>
+       <td>
+        <img alt="Trend Reports" class="icon" id="icon3" onclick='Goto("_trends")' onmouseout='this.src="images/icons/1/trends.gif"' onmouseover='this.src="images/icons/0/trends.gif"' src="images/icons/1/trends.gif"/>
+       </td>
+       <td>
+        <img alt="Data Reports" class="icon" id="icon4" onclick='Goto("_reports")' onmouseout='this.src="images/icons/1/reports.gif"' onmouseover='this.src="images/icons/0/reports.gif"' src="images/icons/1/reports.gif"/>
+       </td>
+       <td>
+        <img alt="Alarms" class="icon" id="icon5" onclick='Goto("_alarms")' onmouseout='this.src="images/icons/1/monitor.gif"' onmouseover='this.src="images/icons/0/monitor.gif"' src="images/icons/1/monitor.gif"/>
+       </td>
+      </tr>
+     </table>
+    </td>
+    <td align="right">
+     <table border="0" cellpadding="0" cellspacing="0" class="infobar" id="infoBar" style='border:1px solid #c0c0c0;background:url("images/skins/darkblue_fade.bmp");filter:alpha(opacity=65)' width="250">
+      <tr>
+       <td align="right" id="localdate">
+        12/25/2000
+       </td>
+       <td align="left" id="localtime">
+        '00:00:00'
+       </td>
+       <td align="center" rowspan="2" valign="center" width="50">
+        <image id="state" src="images/private/page_load.gif"/>
+       </td>
+      </tr>
+      <tr>
+       <td align="right">
+        192.168.13.70:
+       </td>
+       <td align="left">
+        mexsat
+       </td>
+       <td rowspan="2">
+       </td>
+      </tr>
+     </table>
+    </td>
+   </tr>
+  </table>
+  <div id="webview" style="position:absolute;top:65px;left:0px;width:1090px;height:600px;display:none">
+   <table id="box0" style="position:absolute;left:823px;top:32px;width:110px;height:29px;border-style:solid;border-width:3px;border-color:#e5e5e5 #b2b2b2 #b2b2b2 #e5e5e5;background:#87ceeb">
+    <tr>
+     <td>
+     </td>
+    </tr>
+   </table>
+   <table id="box1" style="position:absolute;left:823px;top:60px;width:110px;height:29px;border-style:solid;border-width:3px;border-color:#e5e5e5 #b2b2b2 #b2b2b2 #e5e5e5;background:#87ceeb">
+    <tr>
+     <td>
+     </td>
+    </tr>
+   </table>
+   <table id="box2" style="position:absolute;left:823px;top:90px;width:110px;height:29px;border-style:solid;border-width:3px;border-color:#e5e5e5 #b2b2b2 #b2b2b2 #e5e5e5;background:#87ceeb">
+    <tr>
+     <td>
+     </td>
+    </tr>
+   </table>
+   <table id="box3" style="position:absolute;left:823px;top:120px;width:110px;height:29px;border-style:solid;border-width:3px;border-color:#e5e5e5 #b2b2b2 #b2b2b2 #e5e5e5;background:#87ceeb">
+    <tr>
+     <td>
+     </td>
+    </tr>
+   </table>
+   <table id="box4" style="position:absolute;left:823px;top:150px;width:110px;height:29px;border-style:solid;border-width:3px;border-color:#e5e5e5 #b2b2b2 #b2b2b2 #e5e5e5;background:#87ceeb">
+    <tr>
+     <td>
+     </td>
+    </tr>
+   </table>
+   <table id="box5" style="position:absolute;left:823px;top:180px;width:110px;height:29px;border-style:solid;border-width:3px;border-color:#e5e5e5 #b2b2b2 #b2b2b2 #e5e5e5;background:#87ceeb">
+    <tr>
+     <td>
+     </td>
+    </tr>
+   </table>
+   <table id="box6" style="position:absolute;left:823px;top:210px;width:110px;height:29px;border-style:solid;border-width:3px;border-color:#e5e5e5 #b2b2b2 #b2b2b2 #e5e5e5;background:#87ceeb">
+    <tr>
+     <td>
+     </td>
+    </tr>
+   </table>
+   <table id="box7" style="position:absolute;left:967px;top:32px;width:110px;height:29px;border-style:solid;border-width:3px;border-color:#e5e5e5 #b2b2b2 #b2b2b2 #e5e5e5;background:#87ceeb">
+    <tr>
+     <td>
+     </td>
+    </tr>
+   </table>
+   <table id="box8" style="position:absolute;left:967px;top:60px;width:110px;height:29px;border-style:solid;border-width:3px;border-color:#e5e5e5 #b2b2b2 #b2b2b2 #e5e5e5;background:#87ceeb">
+    <tr>
+     <td>
+     </td>
+    </tr>
+   </table>
+   <table id="box9" style="position:absolute;left:967px;top:90px;width:110px;height:29px;border-style:solid;border-width:3px;border-color:#e5e5e5 #b2b2b2 #b2b2b2 #e5e5e5;background:#87ceeb">
+    <tr>
+     <td>
+     </td>
+    </tr>
+   </table>
+   <table id="box10" style="position:absolute;left:967px;top:120px;width:110px;height:29px;border-style:solid;border-width:3px;border-color:#e5e5e5 #b2b2b2 #b2b2b2 #e5e5e5;background:#87ceeb">
+    <tr>
+     <td>
+     </td>
+    </tr>
+   </table>
+   <table id="box11" style="position:absolute;left:967px;top:147px;width:110px;height:29px;border-style:solid;border-width:3px;border-color:#e5e5e5 #b2b2b2 #b2b2b2 #e5e5e5;background:#87ceeb">
+    <tr>
+     <td>
+     </td>
+    </tr>
+   </table>
+   <table id="box12" style="position:absolute;left:967px;top:180px;width:110px;height:29px;border-style:solid;border-width:3px;border-color:#e5e5e5 #b2b2b2 #b2b2b2 #e5e5e5;background:#87ceeb">
+    <tr>
+     <td>
+     </td>
+    </tr>
+   </table>
+   <table id="box13" style="position:absolute;left:967px;top:210px;width:110px;height:29px;border-style:solid;border-width:3px;border-color:#e5e5e5 #b2b2b2 #b2b2b2 #e5e5e5;background:#87ceeb">
+    <tr>
+     <td>
+     </td>
+    </tr>
+   </table>
+   <table id="box14" style="position:absolute;left:870px;top:250px;width:162px;height:108px;border-style:solid;border-width:3px;border-color:#005900 #008c00 #008c00 #005900;background:#ffffff">
+    <tr>
+     <td>
+     </td>
+    </tr>
+   </table>
+   <table id="box15" style="position:absolute;left:820px;top:400px;width:229px;height:126px;border-style:solid;border-width:3px;border-color:#b20000 #e50000 #e50000 #b20000;background:#ffffff">
+    <tr>
+     <td>
+     </td>
+    </tr>
+   </table>
+   <img alt="" class="image" height="550" id="image0" onclick="OnImage0()" src="images/GRAFICOS/AHU14_Fan_FlowMeter_Ccoil_OAdmpr_RAdmpr.gfx?img=Background.jpg" style="position:absolute;left:0px;top:0px" width="800"/>
+   <div class="label" id="label2" onclick="OnLabel2()" style="color:#000000;position:absolute;left:80px;top:350px;white-space:nowrap">
+    TEMP. RETORNO
+   </div>
+   <div class="label" id="label3" onclick="OnLabel3()" style="color:#000000;position:absolute;left:670px;top:350px;white-space:nowrap">
+    TEMP. INYECCION
+   </div>
+   <div class="label" id="label4" onclick="OnLabel4()" style="color:#000000;position:absolute;left:202px;top:215px;white-space:nowrap">
+    FLUJO AIRE
+   </div>
+   <div class="label" id="label5" onclick="OnLabel5()" style="color:#000000;position:absolute;left:570px;top:260px;white-space:nowrap">
+    FLUJO AIRE
+   </div>
+   <div class="label" id="label6" onclick="OnLabel6()" style="color:#000000;position:absolute;left:404px;top:362px;white-space:nowrap">
+    % VALVULA
+   </div>
+   <div class="label" id="label8" onclick="OnLabel8()" style="color:#000000;position:absolute;left:550px;top:410px;white-space:nowrap">
+    MAN / AUTO
+   </div>
+   <div class="label" id="label9" onclick="OnLabel9()" style="color:#000000;position:absolute;left:910px;top:370px;white-space:nowrap">
+    ALARMAS
+   </div>
+   <div class="label" id="label10" onclick="OnLabel10()" style="color:#000000;position:absolute;left:920px;top:7px;white-space:nowrap">
+    HORARIO
+   </div>
+   <div class="label" id="label11" onclick="OnLabel11()" style="color:#000000;position:absolute;left:900px;top:259px;white-space:nowrap">
+    TEMP. ZONA
+   </div>
+   <div class="label" id="label12" onclick="OnLabel12()" style="color:#000000;position:absolute;left:903px;top:309px;white-space:nowrap">
+    HUMEDAD
+   </div>
+   <div class="label" id="label15" onclick="OnLabel15()" style="color:#000000;position:absolute;left:190px;top:370px;white-space:nowrap">
+    ° C
+   </div>
+   <div class="label" id="label16" onclick="OnLabel16()" style="color:#000000;position:absolute;left:720px;top:320px;white-space:nowrap">
+    ° C
+   </div>
+   <div class="label" id="label17" onclick="OnLabel17()" style="color:#000000;position:absolute;left:962px;top:286px;white-space:nowrap">
+    ° C
+   </div>
+   <div class="label" id="label20" onclick="OnLabel20()" style="color:#000000;position:absolute;left:965px;top:334px;white-space:nowrap">
+    % RH
+   </div>
+   <div class="label" id="label23" onclick="OnLabel23()" style="color:#000000;position:absolute;left:870px;top:416px;white-space:nowrap">
+    BANDA
+   </div>
+   <div class="label" id="label24" onclick="OnLabel24()" style="color:#000000;position:absolute;left:840px;top:449px;white-space:nowrap">
+    MOTOR Y VDF
+   </div>
+   <div class="label" id="label25" onclick="OnLabel25()" style="color:#000000;position:absolute;left:860px;top:485px;white-space:nowrap">
+    FILTRO
+   </div>
+   <table align="left" border="0" cellpadding="0" cellspacing="2" class="data" id="data0" style="position: absolute; left: 20px; top: 440px" width="103">
+    <tr valign="center">
+     <td id="desc0" nowrap="" style="color: #000000">
+      ON / OFF
+     </td>
+     <td width="100%">
+      <img alt="Input B Constant" id="tag0" src="images/LEDs/LED_RED_ON.gif"/>
+     </td>
+    </tr>
+   </table>
+   <table align="left" border="0" cellpadding="0" cellspacing="2" class="data" id="data2" style="position: absolute; left: 214px; top: 237px" width="35">
+    <tr valign="center">
+     <td id="desc2" nowrap="" style="color: #000000">
+     </td>
+     <td width="100%">
+      <img alt="Active Value 05" id="tag2" src="images/LEDs/LED_GRN_ON.gif"/>
+     </td>
+    </tr>
+   </table>
+   <table align="left" border="0" cellpadding="0" cellspacing="2" class="data" id="data3" style="position: absolute; left: 915px; top: 334px" width="32">
+    <tr valign="center">
+     <td id="desc3" nowrap="" style="color: #000000">
+     </td>
+     <td height="19" id="tag3" nowrap="" style="color: #0040e0" width="100%">
+      54
+     </td>
+    </tr>
+   </table>
+   <table align="left" border="0" cellpadding="0" cellspacing="2" class="data" id="data4" style="position: absolute; left: 680px; top: 320px" width="32">
+    <tr valign="center">
+     <td id="desc4" nowrap="" style="color: #000000">
+     </td>
+     <td height="19" id="tag4" nowrap="" style="color: #0040e0" width="100%">
+      9
+     </td>
+    </tr>
+   </table>
+   <table align="left" border="0" cellpadding="0" cellspacing="2" class="data" id="data5" style="position: absolute; left: 170px; top: 350px" width="32">
+    <tr valign="center">
+     <td id="desc5" nowrap="" style="color: #000000">
+     </td>
+     <td height="19" id="tag5" nowrap="" style="color: #0040e0" width="100%">
+      16
+     </td>
+    </tr>
+   </table>
+   <table align="left" border="0" cellpadding="0" cellspacing="2" class="data" id="data8" style="position: absolute; left: 408px; top: 225px" width="138">
+    <tr valign="center">
+     <td id="desc8" nowrap="" style="color: #000000">
+     </td>
+     <td width="100%">
+      <img alt="Active Value 04" id="tag8" src="images/LEDs/mini_blue_on.gif"/>
+     </td>
+    </tr>
+   </table>
+   <table align="left" border="0" cellpadding="0" cellspacing="2" class="data" id="data9" style="position: absolute; left: 164px; top: 269px" width="100">
+    <tr valign="center">
+     <td id="desc9" nowrap="" style="color: #000000">
+     </td>
+     <td width="100%">
+      <img alt="Active Value 04" id="tag9" src="images/GRAFICOS/AHU14_Fan_FlowMeter_Ccoil_OAdmpr_RAdmpr.gfx?img=rdamper_1.gif"/>
+     </td>
+    </tr>
+   </table>
+   <table align="left" border="0" cellpadding="0" cellspacing="2" class="data" id="data10" style="position: absolute; left: 60px; top: 190px" width="71">
+    <tr valign="center">
+     <td id="desc10" nowrap="" style="color: #000000">
+     </td>
+     <td width="100%">
+      <img alt="Active Value 04" id="tag10" src="images/GRAFICOS/AHU14_Fan_FlowMeter_Ccoil_OAdmpr_RAdmpr.gfx?img=oadamper_1.gif"/>
+     </td>
+    </tr>
+   </table>
+   <table align="left" border="0" cellpadding="0" cellspacing="2" class="data" id="data11" style="position: absolute; left: 261px; top: 208px" width="72">
+    <tr valign="center">
+     <td id="desc11" nowrap="" style="color: #000000">
+     </td>
+     <td width="100%">
+      <img alt="Active Value 02" id="tag11" src="images/GRAFICOS/AHU14_Fan_FlowMeter_Ccoil_OAdmpr_RAdmpr.gfx?img=filter_1.gif"/>
+     </td>
+    </tr>
+   </table>
+   <table align="left" border="0" cellpadding="0" cellspacing="2" class="data" id="data12" style="position: absolute; left: 410px; top: 386px" width="54">
+    <tr valign="center">
+     <td id="desc12" nowrap="" style="color: #000000">
+     </td>
+     <td height="19" id="tag12" nowrap="" style="color: #0040e0" width="100%">
+      39
+     </td>
+    </tr>
+   </table>
+   <table align="left" border="0" cellpadding="0" cellspacing="2" class="data" id="data13" style="position: absolute; left: 336px; top: 212px" width="75">
+    <tr valign="center">
+     <td id="desc13" nowrap="" style="color: #000000">
+     </td>
+     <td width="100%">
+      <img alt="Analog Output" id="tag13" src="images/GRAFICOS/AHU14_Fan_FlowMeter_Ccoil_OAdmpr_RAdmpr.gfx?img=ccoil_1.gif"/>
+     </td>
+    </tr>
+   </table>
+   <table align="left" border="0" cellpadding="0" cellspacing="2" class="data" id="data15" style="position: absolute; left: 1010px; top: 412px" width="21">
+    <tr valign="center">
+     <td id="desc15" nowrap="" style="color: #000000">
+     </td>
+     <td width="100%">
+      <img alt="Binary Output" id="tag15" src="images/LEDs/LED_GRN_ON.gif"/>
+     </td>
+    </tr>
+   </table>
+   <table align="left" border="0" cellpadding="0" cellspacing="2" class="data" id="data16" style="position: absolute; left: 1010px; top: 448px" width="21">
+    <tr valign="center">
+     <td id="desc16" nowrap="" style="color: #000000">
+     </td>
+     <td width="100%">
+      <img alt="Active Value 01" id="tag16" src="images/LEDs/LED_GRN_ON.gif"/>
+     </td>
+    </tr>
+   </table>
+   <table align="left" border="0" cellpadding="0" cellspacing="2" class="data" id="data21" style="position: absolute; left: 530px; top: 430px" width="116">
+    <tr valign="center">
+     <td id="desc21" nowrap="" style="color: #000000">
+     </td>
+     <td width="100%">
+      <img alt="Input B Constant" id="tag21" src="images/buttons/darkbg_gel_blue_on.gif"/>
+     </td>
+    </tr>
+   </table>
+   <table align="left" border="0" cellpadding="0" cellspacing="2" class="data" id="data22" style="position: absolute; left: 989px; top: 154px" width="79">
+    <tr valign="center">
+     <td id="desc22" nowrap="" style="color: #000000">
+      Fri OFF:
+     </td>
+     <td height="15" id="tag22" nowrap="" style="color: #0040e0" width="100%">
+      24:00
+     </td>
+    </tr>
+   </table>
+   <table align="left" border="0" cellpadding="0" cellspacing="2" class="data" id="data23" style="position: absolute; left: 847px; top: 157px" width="75">
+    <tr valign="center">
+     <td id="desc23" nowrap="" style="color: #000000">
+      Fri ON:
+     </td>
+     <td height="15" id="tag23" nowrap="" style="color: #0040e0" width="100%">
+      0:00
+     </td>
+    </tr>
+   </table>
+   <table align="left" border="0" cellpadding="0" cellspacing="2" class="data" id="data24" style="position: absolute; left: 979px; top: 37px" width="89">
+    <tr valign="center">
+     <td id="desc24" nowrap="" style="color: #000000">
+      Mon OFF:
+     </td>
+     <td height="15" id="tag24" nowrap="" style="color: #0040e0" width="100%">
+      24:00
+     </td>
+    </tr>
+   </table>
+   <table align="left" border="0" cellpadding="0" cellspacing="2" class="data" id="data25" style="position: absolute; left: 837px; top: 37px" width="85">
+    <tr valign="center">
+     <td id="desc25" nowrap="" style="color: #000000">
+      Mon ON:
+     </td>
+     <td height="15" id="tag25" nowrap="" style="color: #0040e0" width="100%">
+      0:00
+     </td>
+    </tr>
+   </table>
+   <table align="left" border="0" cellpadding="0" cellspacing="2" class="data" id="data26" style="position: absolute; left: 984px; top: 187px" width="84">
+    <tr valign="center">
+     <td id="desc26" nowrap="" style="color: #000000">
+      Sat OFF:
+     </td>
+     <td height="15" id="tag26" nowrap="" style="color: #0040e0" width="100%">
+      24:00
+     </td>
+    </tr>
+   </table>
+   <table align="left" border="0" cellpadding="0" cellspacing="2" class="data" id="data27" style="position: absolute; left: 842px; top: 187px" width="80">
+    <tr valign="center">
+     <td id="desc27" nowrap="" style="color: #000000">
+      Sat ON:
+     </td>
+     <td height="15" id="tag27" nowrap="" style="color: #0040e0" width="100%">
+      0:00
+     </td>
+    </tr>
+   </table>
+   <table align="left" border="0" cellpadding="0" cellspacing="2" class="data" id="data28" style="position: absolute; left: 981px; top: 217px" width="87">
+    <tr valign="center">
+     <td id="desc28" nowrap="" style="color: #000000">
+      Sun OFF:
+     </td>
+     <td height="15" id="tag28" nowrap="" style="color: #0040e0" width="100%">
+      24:00
+     </td>
+    </tr>
+   </table>
+   <table align="left" border="0" cellpadding="0" cellspacing="2" class="data" id="data29" style="position: absolute; left: 839px; top: 217px" width="83">
+    <tr valign="center">
+     <td id="desc29" nowrap="" style="color: #000000">
+      Sun ON:
+     </td>
+     <td height="15" id="tag29" nowrap="" style="color: #0040e0" width="100%">
+      0:00
+     </td>
+    </tr>
+   </table>
+   <table align="left" border="0" cellpadding="0" cellspacing="2" class="data" id="data30" style="position: absolute; left: 982px; top: 127px" width="86">
+    <tr valign="center">
+     <td id="desc30" nowrap="" style="color: #000000">
+      Thu OFF:
+     </td>
+     <td height="15" id="tag30" nowrap="" style="color: #0040e0" width="100%">
+      24:00
+     </td>
+    </tr>
+   </table>
+   <table align="left" border="0" cellpadding="0" cellspacing="2" class="data" id="data31" style="position: absolute; left: 840px; top: 127px" width="82">
+    <tr valign="center">
+     <td id="desc31" nowrap="" style="color: #000000">
+      Thu ON:
+     </td>
+     <td height="15" id="tag31" nowrap="" style="color: #0040e0" width="100%">
+      0:00
+     </td>
+    </tr>
+   </table>
+   <table align="left" border="0" cellpadding="0" cellspacing="2" class="data" id="data32" style="position: absolute; left: 983px; top: 66px" width="85">
+    <tr valign="center">
+     <td id="desc32" nowrap="" style="color: #000000">
+      Tue OFF:
+     </td>
+     <td height="15" id="tag32" nowrap="" style="color: #0040e0" width="100%">
+      24:00
+     </td>
+    </tr>
+   </table>
+   <table align="left" border="0" cellpadding="0" cellspacing="2" class="data" id="data33" style="position: absolute; left: 841px; top: 65px" width="81">
+    <tr valign="center">
+     <td id="desc33" nowrap="" style="color: #000000">
+      Tue ON:
+     </td>
+     <td height="15" id="tag33" nowrap="" style="color: #0040e0" width="100%">
+      0:00
+     </td>
+    </tr>
+   </table>
+   <table align="left" border="0" cellpadding="0" cellspacing="2" class="data" id="data34" style="position: absolute; left: 977px; top: 95px" width="91">
+    <tr valign="center">
+     <td id="desc34" nowrap="" style="color: #000000">
+      Wed OFF:
+     </td>
+     <td height="15" id="tag34" nowrap="" style="color: #0040e0" width="100%">
+      24:00
+     </td>
+    </tr>
+   </table>
+   <table align="left" border="0" cellpadding="0" cellspacing="2" class="data" id="data35" style="position: absolute; left: 835px; top: 94px" width="87">
+    <tr valign="center">
+     <td id="desc35" nowrap="" style="color: #000000">
+      Wed ON:
+     </td>
+     <td height="15" id="tag35" nowrap="" style="color: #0040e0" width="100%">
+      0:00
+     </td>
+    </tr>
+   </table>
+   <table align="left" border="0" cellpadding="0" cellspacing="2" class="data" id="data36" style="position: absolute; left: 590px; top: 280px" width="35">
+    <tr valign="center">
+     <td id="desc36" nowrap="" style="color: #000000">
+     </td>
+     <td width="100%">
+      <img alt="Active Value 05" id="tag36" src="images/LEDs/LED_GRN_ON.gif"/>
+     </td>
+    </tr>
+   </table>
+   <table align="left" border="0" cellpadding="0" cellspacing="2" class="data" id="data37" style="position: absolute; left: 912px; top: 286px" width="32">
+    <tr valign="center">
+     <td id="desc37" nowrap="" style="color: #000000">
+     </td>
+     <td height="19" id="tag37" nowrap="" style="color: #0040e0" width="100%">
+      19
+     </td>
+    </tr>
+   </table>
+   <table align="left" border="0" cellpadding="0" cellspacing="2" class="data" id="data6" style="position: absolute; left: 1010px; top: 487px" width="21">
+    <tr valign="center">
+     <td id="desc6" nowrap="" style="color: #000000">
+     </td>
+     <td width="100%">
+      <img alt="Binary Output" id="tag6" src="images/LEDs/LED_GRN_ON.gif"/>
+     </td>
+    </tr>
+   </table>
+   <table align="left" border="0" cellpadding="0" cellspacing="2" class="data" id="data7" style="position: absolute; left: 1052px; top: 410px" width="32">
+    <tr valign="center">
+     <td id="desc7" nowrap="" style="color: #000000">
+     </td>
+     <td height="19" id="tag7" nowrap="" style="color: #ff0000" width="100%">
+     </td>
+    </tr>
+   </table>
+   <table align="left" border="0" cellpadding="0" cellspacing="2" class="data" id="data14" style="position: absolute; left: 1052px; top: 447px" width="32">
+    <tr valign="center">
+     <td id="desc14" nowrap="" style="color: #000000">
+     </td>
+     <td height="19" id="tag14" nowrap="" style="color: #ff0000" width="100%">
+     </td>
+    </tr>
+   </table>
+   <table align="left" border="0" cellpadding="0" cellspacing="2" class="data" id="data17" style="position: absolute; left: 1052px; top: 485px" width="32">
+    <tr valign="center">
+     <td id="desc17" nowrap="" style="color: #000000">
+     </td>
+     <td height="19" id="tag17" nowrap="" style="color: #ff0000" width="100%">
+     </td>
+    </tr>
+   </table>
+   <table align="left" border="0" cellpadding="0" cellspacing="2" class="data" id="data38" style="position: absolute; left: 1036px; top: 280px" width="21">
+    <tr valign="center">
+     <td id="desc38" nowrap="" style="color: #000000">
+     </td>
+     <td width="100%">
+      <img alt="Binary Output" id="tag38" src="images/LEDs/LED_GRN_ON.gif"/>
+     </td>
+    </tr>
+   </table>
+   <table align="left" border="0" cellpadding="0" cellspacing="2" class="data" id="data39" style="position: absolute; left: 1064px; top: 286px" width="32">
+    <tr valign="center">
+     <td id="desc39" nowrap="" style="color: #000000">
+     </td>
+     <td height="19" id="tag39" nowrap="" style="color: #ff0000" width="100%">
+     </td>
+    </tr>
+   </table>
+   <table id="box16" style="position:absolute;left:483px;top:466px;width:244px;height:60px;border-style:solid;border-width:3px;border-color:#4c4c4c #000000 #000000 #4c4c4c;background:#ffffff">
+    <tr>
+     <td>
+     </td>
+    </tr>
+   </table>
+   <table id="box17" style="position:absolute;left:16px;top:486px;width:225px;height:36px;border-style:solid;border-width:3px;border-color:#ab9b7d #f0d9af #f0d9af #ab9b7d;background:#ffffff">
+    <tr>
+     <td>
+     </td>
+    </tr>
+   </table>
+   <table id="box18" style="position:absolute;left:33px;top:70px;width:138px;height:84px;border-style:solid;border-width:3px;border-color:#ab9b7d #f0d9af #f0d9af #ab9b7d;background:#ffffff">
+    <tr>
+     <td>
+     </td>
+    </tr>
+   </table>
+   <table id="box19" style="position:absolute;left:380px;top:14px;width:212px;height:118px;border-style:solid;border-width:6px;border-color:#8c8c8c #595959 #595959 #8c8c8c;background:">
+    <tr>
+     <td>
+     </td>
+    </tr>
+   </table>
+   <div class="label" id="label0" onclick="OnLabel0()" style="color:#000000;position:absolute;left:410px;top:30px;white-space:nowrap">
+    AHU - 11
+   </div>
+   <div class="label" id="label1" onclick="OnLabel1()" style="color:#000000;position:absolute;left:50px;top:120px;white-space:nowrap">
+    RESET VDF
+   </div>
+   <div class="label" id="label7" onclick="OnLabel7()" style="color:#000000;position:absolute;left:22px;top:495px;white-space:nowrap">
+    SET POINT
+   </div>
+   <div class="label" id="label13" onclick="OnLabel13()" style="color:#000000;position:absolute;left:420px;top:70px;white-space:nowrap">
+    SERVER
+   </div>
+   <div class="label" id="label14" onclick="OnLabel14()" style="color:#000000;position:absolute;left:172px;top:495px;white-space:nowrap">
+    ° C
+   </div>
+   <div class="label" id="label18" onclick="OnLabel18()" style="color:#000000;position:absolute;left:694px;top:474px;white-space:nowrap">
+    HZ
+   </div>
+   <div class="label" id="label19" onclick="OnLabel19()" style="color:#000000;position:absolute;left:691px;top:504px;white-space:nowrap">
+    V
+   </div>
+   <div class="label" id="label21" onclick="OnLabel21()" style="color:#000000;position:absolute;left:497px;top:474px;white-space:nowrap">
+    FRECUENCIA
+   </div>
+   <div class="label" id="label22" onclick="OnLabel22()" style="color:#000000;position:absolute;left:508px;top:504px;white-space:nowrap">
+    VALVULA
+   </div>
+   <table align="left" border="0" cellpadding="0" cellspacing="2" class="data" id="data1" style="position: absolute; left: 80px; top: 80px" width="35">
+    <tr valign="center">
+     <td id="desc1" nowrap="" style="color: #000000">
+     </td>
+     <td width="100%">
+      <img alt="Input B Constant" id="tag1" src="images/LEDs/LED_RED_ON.gif"/>
+     </td>
+    </tr>
+   </table>
+   <table align="left" border="0" cellpadding="0" cellspacing="2" class="data" id="data18" style="position: absolute; left: 122px; top: 495px" width="32">
+    <tr valign="center">
+     <td id="desc18" nowrap="" style="color: #000000">
+     </td>
+     <td height="19" id="tag18" nowrap="" style="color: #0040e0" width="100%">
+      24
+     </td>
+    </tr>
+   </table>
+   <table align="left" border="0" cellpadding="0" cellspacing="2" class="data" id="data19" style="position: absolute; left: 627px; top: 474px" width="32">
+    <tr valign="center">
+     <td id="desc19" nowrap="" style="color: #000000">
+     </td>
+     <td height="19" id="tag19" nowrap="" style="color: #0040e0" width="100%">
+      60
+     </td>
+    </tr>
+   </table>
+   <table align="left" border="0" cellpadding="0" cellspacing="2" class="data" id="data20" style="position: absolute; left: 627px; top: 504px" width="32">
+    <tr valign="center">
+     <td id="desc20" nowrap="" style="color: #000000">
+     </td>
+     <td height="19" id="tag20" nowrap="" style="color: #0040e0" width="100%">
+      10
+     </td>
+    </tr>
+   </table>
+  </div>
+  <script src="scripts/private/navbar.js">
+  </script>
+  <script>
+   var fixups = "";var globals = new Array();var console = new Array();var _W = 1088,_H = 663;var critical_priority = 0;var reportID = 'untitled';var schedule=[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];var menuBar;var viewMenu = new NavBarMenu(55,250);var themeMenu = new NavBarMenu(65,150);var graphMenu = new NavBarMenu(65,250);var csvMenu = new NavBarMenu(65,250);var scheduleMenu = new NavBarMenu(80,160);var calendarMenu = new NavBarMenu(80,160);function OnReady(){
+menuBar = new NavBar(document.body.clientWidth);viewMenu.addItem(new NavBarMenuItem('View', ''));menuBar.addMenu(viewMenu);viewMenu.addItem(new NavBarMenuItem('<img src="images/private/password.gif" class=menu_icon>Change Password...', 'javascript:WriteTag(999)'));viewMenu.addItem(new NavBarMenuItem('<img src="images/alarms/notes.gif" class=menu_icon>User Notes...', 'javascript:LoadNotes()'));viewMenu.addItem(new NavBarMenuItem('<img src="images/private/print.gif" class=menu_icon>Print...', 'javascript:Print(null)'));viewMenu.addItem(new NavBarMenuItem());viewMenu.addItem(new NavBarMenuItem('<img src="images/alarms/unchecked.gif" class=menu_icon>Exit', 'javascript:Quit(false)'));menuBar.addMenu(themeMenu);themeMenu.addItem(new NavBarMenuItem('Theme', ''));themeMenu.addItem(new NavBarMenuItem('Brushed Metal', 'javascript:ChangeTheme(0)'));themeMenu.addItem(new NavBarMenuItem('Buildings', 'javascript:ChangeTheme(1)'));themeMenu.addItem(new NavBarMenuItem('Dark Stone 1', 'javascript:ChangeTheme(2)'));themeMenu.addItem(new NavBarMenuItem('Dark Stone 2', 'javascript:ChangeTheme(3)'));themeMenu.addItem(new NavBarMenuItem('Deep Blue', 'javascript:ChangeTheme(4)'));themeMenu.addItem(new NavBarMenuItem('Firehouse Red', 'javascript:ChangeTheme(5)'));themeMenu.addItem(new NavBarMenuItem('Metal Mosaic', 'javascript:ChangeTheme(6)'));themeMenu.addItem(new NavBarMenuItem('Rainforest Green', 'javascript:ChangeTheme(7)'));themeMenu.addItem(new NavBarMenuItem('Stone Wall (white)', 'javascript:ChangeTheme(8)'));themeMenu.addItem(new NavBarMenuItem('Stone Wall (aqua)', 'javascript:ChangeTheme(9)'));themeMenu.addItem(new NavBarMenuItem('Stucco Slab', 'javascript:ChangeTheme(10)'));menuBar.addMenu(graphMenu);graphMenu.addItem(new NavBarMenuItem('Graph', ''));graphMenu.addItem(new NavBarMenuItem('<b>New...</b>', 'javascript:SendXML("<LoadReport graph=1>_NEW_</LoadReport>")'));menuBar.addMenu(csvMenu);csvMenu.addItem(new NavBarMenuItem('Report', ''));csvMenu.addItem(new NavBarMenuItem('<b>New...</b>', 'javascript:SendXML("<LoadReport>_NEW_</LoadReport>")'));menuBar.addMenu(scheduleMenu);scheduleMenu.addItem(new NavBarMenuItem('Schedules', 'javascript:if (webview.style.display=="none") {  schedulehome.style.display="none";  webview.style.display="block";} else {  schedulehome.style.display="block";  webview.style.display="none";}'));menuBar.addMenu(calendarMenu);calendarMenu.addItem(new NavBarMenuItem('Calendars', ''));menuBar.setColors(menuRGB[0],menuRGB[1],menuRGB[2],menuRGB[3],menuRGB[4],menuRGB[5],menuRGB[6],menuRGB[7],menuRGB[8]);}
+function OnSnap() { resize(_W,_H);center(0,65) } function snap() { try { OnSnap();OnShow(); } catch (e) { window.setTimeout('snap()',500) } }top.document.body.onresize = function () { OnSnap(); menuBar.resize(mainframe.width) };snap();
+ResetXML();
+  </script>
+ </body>
+ <html>
+ </html>
+</html>
