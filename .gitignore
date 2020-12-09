@@ -220,3 +220,6 @@ pip-log.txt
 .mypy*
 .vscode*
 *.code-workspace
+
+#Specific
+covid19.zip
