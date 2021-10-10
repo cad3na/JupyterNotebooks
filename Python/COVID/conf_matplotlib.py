@@ -44,7 +44,32 @@ def conf_matplotlib_horizon():
     
     rcParams["lines.linewidth"]  = 5
     rcParams["grid.linewidth"]   = 0.5
+
+def conf_matplotlib_monokai():
+    from matplotlib.pyplot import style, rcParams
     
+    c_fondo = (47/256, 50/256, 58/256)
+    c_texto = (181/256, 181/256, 181/256)
+
+    style.use("dark_background")
+
+    rcParams["figure.facecolor"] = c_fondo
+    rcParams["axes.facecolor"]   = c_fondo
+    rcParams["legend.facecolor"] = c_fondo
+    
+    rcParams["legend.edgecolor"] = c_texto
+    rcParams["axes.edgecolor"]   = c_texto
+    
+    rcParams["axes.grid"]        = True
+    
+    rcParams["grid.color"]       = c_texto
+    
+    rcParams["xtick.color"]      = c_texto
+    rcParams["ytick.color"]      = c_texto
+    
+    rcParams["lines.linewidth"]  = 5
+    rcParams["grid.linewidth"]   = 0.5
+
 def conf_matplotlib_claro():
     from matplotlib.pyplot import style, rcParams
 
